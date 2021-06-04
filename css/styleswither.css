@@ -1,0 +1,90 @@
+.style-witcher {
+    position: fixed;
+    right: 0;
+    top: 77px;
+    padding: 15px;
+    width: 200px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(100%);
+}
+
+.style-witcher.open {
+    transform: translateX(-15%);
+}
+
+.style-witcher .s-icon {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: var(--text-black-900);
+    right: 100%;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
+
+.style-witcher .s-icon i {
+    line-height: 40px;
+}
+
+.style-witcher .s-icon::after {
+    border-radius: 50%;
+}
+
+.style-witcher .style-togler {
+
+    top: 0;
+}
+
+.style-witcher .day-night {
+
+    top: 55px;
+}
+
+.style-witcher h4 {
+    margin: 0 0 10;
+    color: var(--text-black-700);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+.style-witcher .colors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.style-witcher .colors span {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.style-witcher .color-1 {
+    background-color: #fb839e;
+}
+
+.style-witcher .color-2 {
+    background-color: #1fc586;
+}
+
+.style-witcher .color-3 {
+    background-color: #2eb1ed;
+}
+
+.style-witcher .color-4 {
+    background-color: #cc3a3b;
+
+}
+
+.style-witcher .color-5 {
+    background-color: #ec9412;
+}

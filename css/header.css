@@ -1,0 +1,60 @@
+.header {
+    padding: 20px 15px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.header .logo a {
+    text-align: center;
+    display: inline-block;
+    line-height: 36px;
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+    color: var(--skin-color);
+    border-radius: 50%;
+    border: 2px solid var(--skin-color);
+    font-weight: 600;
+    /*text-transform: uppercase;*/
+}
+
+.header .humburger-btn {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+
+}
+
+.header .humburger-btn span {
+    display: block;
+    height: 2px;
+    width: 16px;
+    background-color: var(--bg-black-900);
+    position: relative;
+}
+
+.header .humburger-btn span::before,
+.header .humburger-btn span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--bg-black-900);
+}
+
+.header .humburger-btn span::before {
+    top: -6px;
+}
+
+.header .humburger-btn span::after {
+    top: 6px;
+}
